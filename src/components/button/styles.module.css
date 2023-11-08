@@ -1,0 +1,31 @@
+.button {
+    padding: 4px 8px;
+
+    /* variants */
+
+    &.default {
+        background-color: green;
+    }
+
+    &.warning {
+        background-color: orange;
+    }
+
+    &.error {
+        background-color: red;
+    }
+
+    /* sizes */
+
+    &.small {
+        padding: 2px 4px;
+    }
+
+    &.medium {
+        padding: 4px 8px;
+    }
+
+    &.large {
+        padding: 6px 12px;
+    }
+}
